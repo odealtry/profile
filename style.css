@@ -21,11 +21,24 @@ h2 {
 a {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
-  color: #6B72F1;
   font-weight: 600;
   font-size: 15px;
   border-radius: 5px;
   padding: 10px 10px;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+span {
+  color: #fd1015;
+  background: rgba(253,16,21,.1);
+}
+
+.intro-link {
+  color: black;
 }
 
 .intro-link:hover {
@@ -36,19 +49,17 @@ a {
 
 }
 
-.fab {
+.social-link {
   color: #E6E6E6;
+  font-size: 40px;
+  padding: 12px;
 }
 
-.fab:hover {
-  color: #black;
+.social-link:hover {
+  color: white;
+  background-color: black;
 }
 
-
-li {
-  display: inline-block;
-  padding: 0px 20px;
-}
 
 .container {
     margin: 40px auto;
@@ -62,10 +73,6 @@ li {
     box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
     border-radius: 4px;
     text-align: center;
-}
-
-.fab {
-  font-size: 30px;
 }
 
 .list-inline {
